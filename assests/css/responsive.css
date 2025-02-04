@@ -1,0 +1,26 @@
+@media screen and (max-width: 992px) {
+    
+    
+    button.btn{
+        margin-left: 40%;
+    
+    }
+}
+@media screen and (max-width: 667px) {
+    
+    
+    button.btn{
+        margin-left: 36%;
+    
+    }
+}
+@media screen and (max-width: 480px) {
+    
+    
+    button.btn{
+        margin-left: 25%;
+        max-width: 180px;
+        
+    
+    }
+}

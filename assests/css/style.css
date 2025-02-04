@@ -1,0 +1,281 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+h1,h2,h3,h4,h5,h6{
+    font-family:"Montserrat", sans-serif ;
+}
+.r-p{
+    padding: 80px 0px;
+}
+.r-btn{
+    padding: 5px 20px;
+    background-color: #EE86EE !important;
+    color: #fff !important;
+    border: none !important;
+}
+.bg-sec{
+    background-color: #F8F9Fa;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6c757d;
+}
+/* preloader */
+/* .preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 99998;
+}
+.preloader::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: #000;
+    transition: 1s;
+}
+.preloader::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background: #000;
+    transition: 1s;
+}
+.preloader.complete::before{
+    bottom: -50%;
+}
+.preloader.complete::after{
+    top: -50%;
+}
+.preloader.complete{
+    visibility: hidden;
+}
+.circle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid rgba(255,255,255,0.1);
+    border: 10px solid #EE8683;
+    animation: animate 1.5 infinite linear;
+    z-index: 99999;
+
+}
+@keyframes animate{
+    0%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(deg);   
+    }
+} */
+/* navigation */
+nav .r-nav{
+    background-color: transparent;
+    padding: 20px 0px;
+    transition: 0.5s all;
+} 
+nav .navbar-brand{
+    font-size: 40px;
+    color: #fff;
+}
+nav .navbar-nav li a{
+    color: rgba(255,255,255,0.8) !important;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Nunito' sans-serif;
+    text-transform: capitalize;
+}
+nav .navbar-nav li{
+    margin-left: 15px;
+}
+nav.r-nav.stickyadd{
+    background-color: #fff;
+    padding: 15px 0px;
+    box-shadow: 0 1px 8px 3px rgba(0,0,0,0.05);
+    transition: 0.5s ease-in-out;
+}
+nav.stickyadd .navbar-brand{
+    color: #000;
+    font-size: 50px;
+    font-weight: 600;
+    transition: .5s all;
+}
+nav.stickyadd .navbar-nav .nav-link{
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s all;
+}
+.navbar .hamburger{
+    color: #fff;
+}
+nav.stickyadd .navbar .hamburger{
+    color: #000;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header .content-box{
+    height: 100vh;
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.content-box{
+   /* max-width: 50%; */
+   color: #fff;
+   /* padding-top: 200px; */
+
+
+}
+.content-box h4{
+    font-size: 30px;
+}
+.content-box h1{
+    font-size: 52px;
+}
+.content-box p{
+    color: #fff;
+}
+
+button.btn{
+    background-color: transparent;
+    color: #fff;
+   max-width: 180px;
+    margin-left: 44%;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid white;
+
+
+
+}
+button.btn:hover{
+    background-color:#fff !important;
+    color: #000 !important;
+    max-width: 180px;
+    margin-left: 44%;
+    border-radius: 20px;
+   
+
+}
+/* about section */
+.about li a{
+    color: #000;
+display: inline-block;
+height: 42px;
+width: 42px;
+font-size: 20px;
+border: 2px solid #d4d4d4; 
+border-radius: 50%;
+line-height: 40px;
+transition: 0.5s all;
+text-align: center;   
+}
+/* experience */
+.exp-class .progress{
+height: 10px;
+border-radius: 20px;
+font-size: 10px;
+
+}
+.progress-bar{
+    background-color: #EE8683 !important;
+}
+.exp-class label{
+    font-size: 20px;
+    margin: 10px;
+}
+/* service-section */
+.card{
+    margin-bottom: 26px;
+}
+.card,.card-header{
+    background-color: #F8F9FA !important;
+}
+.card-header{
+    border: none !important;
+}
+.services-class .card-header i{
+    font-size: 50px;
+}
+.service-border{
+    height: 2px;
+    width: 40px;
+    background: #e65f78;
+    margin:  15px auto;
+}
+/* testimony */
+.testimony-class .test-item{
+  max-width: 500px;
+  margin: 50px auto;  
+}
+.testimony-class .test-item .test-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.testimony-class .test-item i{
+    color: grey;
+
+}
+.test-item p.test-name {
+    font-size: 14px;
+}
+.work .card-wrapper{
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+/* contact us */
+.contact .r-icon{
+    font-size: 50px;
+    text-align: center;
+}
+/* footer */
+footer{
+    height: 200px;
+    background-color: #333333;
+}
+.footer.r-icon a{
+    font-size: 20px;
+    color: #848484;
+    padding: 10px;
+    border: 1px solid #848484;
+    border-radius: 50%;
+}
+.footer.r-icon a:hover{
+    border: 1px solid #eee;
+    color: #eee;
+    transition: .5s all;
+}
